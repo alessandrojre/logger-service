@@ -28,6 +28,12 @@ PASSWORD:mysql
 
 *Request
 ```
+
+----------------------------------------------
+typeLog =  "database" ,"console", "file"
+typeError = "warning","error","info"
+---------------------------------------------
+
 curl --location --request POST 'http://localhost:8080/soaint/try/logger' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -90,4 +96,5 @@ docker run -d logger-service:01
 
 
 Run MicroService within Eclipse or IntelliJ.
+
 

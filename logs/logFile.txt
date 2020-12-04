@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-12-04T10:09:08.990670Z</date>
+  <millis>1607076548990</millis>
+  <nanos>670000</nanos>
+  <sequence>1</sequence>
+  <logger>java.lang.Class</logger>
+  <level>INFO</level>
+  <class>com.soaint.logger.service.MessageError</class>
+  <method>messageError</method>
+  <thread>1</thread>
+  <message>Warning error message</message>
+</record>
+</log>
